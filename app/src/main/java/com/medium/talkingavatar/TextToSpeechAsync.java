@@ -29,7 +29,7 @@ public class TextToSpeechAsync extends AsyncTask<String, Void, String> {
 
     // Cognito pool ID. Pool needs to be unauthenticated pool with
     // Amazon Polly permissions.
-    private static String COGNITO_POOL_ID = "us-west-2:347bfb8a-f3dc-40c0-9382-877079dc99da";  //"YourCognitoIdentityPoolId";
+    private static String COGNITO_POOL_ID = "YourCognitoIdentityPoolId";
 
     // Region of Amazon Polly.
     private static Regions MY_REGION = Regions.US_WEST_2;
